@@ -7,4 +7,9 @@ for (let i = 0; i < numbers.length; i += 1) {
     }
 }
 
-console.log(ehImpar)
+if (ehImpar == null) {
+    console.log('nenhum valor ímpar encontrado');
+} else {
+    console.log(ehImpar);
+}
+
