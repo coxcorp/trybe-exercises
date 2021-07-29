@@ -1,14 +1,10 @@
 let numbers = [5, 9, 3, 19, 70, 8, 10, 2, 35, 27];
-let atual;
-let maior;
+let maior = numbers[0];
 
 for (let index = 0; index < numbers.length; index += 1) {
-    if (atual > numbers[index]) {
-        maior = atual;
-    } else {
+    if (numbers[index] > maior) {
         maior = numbers[index];
     }
-    atual = maior;
 }
 
 console.log(maior)
