@@ -1,10 +1,11 @@
-let n = 5;
+let n = 2;
 let linha = '';
+let simbolo = '*';
 
-for(let i = 1; i <= n; i += 1) {
-    linha = linha + '*';
+for(let i = 0; i < n; i += 1) {
+    linha = linha + simbolo;
 }
 
-for(let j = 1; j <= n; j += 1) {
+for(let j = 0; j < n; j += 1) {
     console.log(linha);
 }
